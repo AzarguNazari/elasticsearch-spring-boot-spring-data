@@ -1,4 +1,4 @@
-package starter.api;
+package com.example.elasticsearch.api;
 
 import org.elasticsearch.client.Client;
 import org.elasticsearch.common.settings.Settings;
@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
-import starter.model.Movie;
+import com.example.elasticsearch.model.Movie;
 
 import java.util.Map;
 

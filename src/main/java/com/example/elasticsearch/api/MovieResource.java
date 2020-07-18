@@ -1,13 +1,11 @@
-package starter.api;
+package com.example.elasticsearch.api;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
-import starter.model.Movie;
-import starter.service.MovieService;
-
-import javax.xml.ws.Response;
+import com.example.elasticsearch.model.Movie;
+import com.example.elasticsearch.service.MovieService;
 import java.net.URI;
 import java.util.List;
 
